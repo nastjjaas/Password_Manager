@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="times"
+        android:text="Sign Up ">
+
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/emailNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/passTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Enter Paswword"
+        android:inputType="textPassword"
+        android:textSize="20dp">
+
+    </EditText>
+
+
+
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:fontFamily="arial"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:fontFamily="arial"
+        android:text="Have an account? "
+        android:textAlignment="center"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:fontFamily="arial"
+        android:text="Click here: Login"
+        android:textAlignment="center"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</LinearLayout>
